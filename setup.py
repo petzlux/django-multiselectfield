@@ -25,8 +25,8 @@ def read(*rnames):
 
 setup(
     name="django-multiselectfield",
-    version="0.0.3",
-    author="Daniel Roseman and Pablo Martin",
+    version="0.1",
+    author="Fork by Patrick Weber, originally Daniel Roseman and Pablo Martin",
     author_email="goinnn@gmail.com",
     description="Django multiple select field",
     long_description=(read('README.rst') + '\n\n' + read('CHANGES.rst')),
@@ -39,7 +39,7 @@ setup(
     ],
     license="LGPL 3",
     keywords="django,multiple,select,field,choices",
-    url='https://github.com/goinnn/django-multiselectfield',
+    url='http://github.com/petzlux/django-multiselectfield.git',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
     include_package_data=True,
